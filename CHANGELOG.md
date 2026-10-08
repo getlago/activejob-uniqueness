@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased](https://github.com/veeqo/activejob-uniqueness/compare/v0.4.0...HEAD)
 
+### Added
+- [#97](https://github.com/veeqo/activejob-uniqueness/pull/97) Add Rails 8.1 support by [@realestatepro](https://github.com/realestatepro)
+
+### Changed
+- [#97](https://github.com/veeqo/activejob-uniqueness/pull/97) Replace deprecated `ActiveSupport::Configurable` with plain accessors by [@realestatepro](https://github.com/realestatepro)
 
 ## [0.4.0](https://github.com/veeqo/activejob-uniqueness/compare/v0.3.2...v0.4.0) - 2024-12-07
 
