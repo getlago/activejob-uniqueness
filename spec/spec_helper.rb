@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
+# concurrent-ruby 1.3.5 no longer requires logger, which ActiveSupport < 7.1 relies on
+require 'logger'
 require 'pry-byebug'
 require 'active_support/core_ext/kernel/reporting'
 
