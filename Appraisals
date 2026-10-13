@@ -51,5 +51,5 @@ appraise 'sidekiq-6.x' do
 end
 
 appraise 'sidekiq-7.x' do
-  gem 'sidekiq', '~> 7.0'
+  gem 'sidekiq', '~> 7.0', '< 7.3'
 end
